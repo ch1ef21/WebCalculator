@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f405b2c5a3638707dd2127e84596b7f8bc523a90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73e6e5332dee0d693614740d7a4baa1f0802f21b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
