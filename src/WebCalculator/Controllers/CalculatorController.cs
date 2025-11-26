@@ -20,11 +20,12 @@ public class CalculatorController : ControllerBase
                 request.Operation
             );
 
-            return new CalculatorResponse
+            // ИСПРАВЛЕНИЕ: Обернуть результат в Ok()
+            return Ok(new CalculatorResponse // Используем Ok()
             {
                 Success = true,
                 Result = result
-            };
+            });
         }
         catch (Exception ex)
         {
@@ -39,13 +40,14 @@ public class CalculatorController : ControllerBase
     [HttpGet("operations")]
     public ActionResult<List<string>> GetAvailableOperations()
     {
-        return new List<string>
+        // ИСПРАВЛЕНИЕ: Обернуть результат в Ok()
+        return Ok(new List<string> // Используем Ok()
         {
             "add",
             "subtract",
             "multiply",
             "divide",
             "power"
-        };
+        });
     }
 }
